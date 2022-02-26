@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX</title>
+</head>
+<body>
+    <button id="history">History</button>
+    <button id="payload">Payload</button>
+
+
+    <table id="table"></table>
+</body>
+<script src="main.js"></script>
+<!-- <script>
+var hist = document.getElementById('history');
+var payload = document.getElementById('payload');
+hist.addEventListener("click", function(){
+    console.log("Show history");
+    fetch("https://api.spacexdata.com/v3/history").then((response) =>{
+        console.log("response fetched");
+        return response.json();
+    }).then((data) => {
+        console.log("fdata fetched : ");
+        console.log(data);
+    })
+
+});
+</script> -->
+</html>
